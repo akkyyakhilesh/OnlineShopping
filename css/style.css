@@ -1,0 +1,112 @@
+#container{
+	width:100%;
+}
+.navigation{
+	background-color:green;
+}
+
+#myNavbar{
+	margin-top:6px;
+}
+li{
+	color:white;
+	padding:5px 10px;
+}
+li:hover{
+	cursor:pointer;
+	color:#cfcfcf;
+}
+#container{
+	margin:0px;
+	}
+
+.imgDiv{
+	width:100%;
+	display:inline-block;
+	text-align:center;
+	margin-bottom:10px;
+	
+}
+img:hover{
+	border:1px solid black;	
+	 transform: scale(1.04); 
+}
+
+.images{
+	height:400px;
+	width:100%;
+	border:1px solid #ccc;
+	transition:transform 0.5s;
+}
+.shoesImages{
+	height:300px;
+	width:100%;
+	border:1px solid #ccc;
+	transition:transform 0.5s;
+}
+h1{
+	color:white !important;
+	Text-align:center;
+	background-color:#333;
+	padding:25px 0px;
+	margin:0px;
+}
+h2{
+	text-align:center;
+	color:blue;
+}
+.addButton{
+	background-color:white;
+	border:1px solid maroon;
+	padding:10px 15px;
+	color:maroon;
+	margin-bottom:12px;
+	margin-top:12px;
+	font-size:16px;
+}
+.addButton:hover{
+	background-color:maroon;
+	color:white;
+	cursor:pointer;
+	
+	
+}
+#right-btn1, #right-btn2{
+	float:right;
+}
+.footer{
+	font-size:18px;
+	background-color:#333;
+	color:#337ab7;
+	padding:15px;
+	clear:both !important;
+	text-align:center;
+}
+.footerIcon{
+	padding:4px 8px;
+	
+}
+
+
+
+@media screen and (min-device-width: 460px) and (max-device-width: 570px) {
+  .imgDiv{
+	  width:50%;
+  }
+}
+@media screen and (min-device-width: 571px) and (max-device-width: 764px) {
+  .imgDiv{
+	  width:50%;
+  }
+}
+
+.infoSpan{
+	color:green;
+	font-size:17px;
+	padding-left:5px;
+}
+#i1{
+	 font-size:26px !important;
+	 color:green;
+	 padding-left:5px;
+}
